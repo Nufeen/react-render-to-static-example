@@ -4,4 +4,4 @@ import App from './App'
 
 const html = RDS.renderToStaticMarkup(App)
 
-console.log(html)
+process.stdout.write(html)
