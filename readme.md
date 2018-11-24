@@ -26,6 +26,6 @@ Sometimes (in my practice) it's needed to render some existing components to pur
 
 Some relevant links:
 
-https://webpack.js.org/concepts/targets/#multiple-targets (Rendering to static is usually a final step. You will normally use other webpack config. If you want to avoid several config files, consider returning an array of configs)
+https://webpack.js.org/concepts/targets/#multiple-targets (Rendering to static is usually a final step. You will normally use another webpack config for development. If you want to avoid several config files, consider returning an array of configs)
 
-https://github.com/kriasoft/isomorphic-style-loader (I used extraction plugin since i need css modules, for other scenarios this loader seemes to be interesting. Basic `style-loader` will break the rendering util since it keeps references to `window` object)
+https://github.com/kriasoft/isomorphic-style-loader (I used extraction plugin since I need CSS modules, for other scenarios this loader seemes to be interesting. Basic `style-loader` will break the rendering util since it keeps references to `window` object)
