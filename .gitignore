@@ -1,0 +1,17 @@
+.DS_Store
+._*
+Thumbs.db
+
+*.swp
+.idea
+.vscode
+./stats.json
+
+node_modules
+
+npm-debug.log
+yarn-error.log
+
+build
+dist
+stats.json
