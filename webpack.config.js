@@ -47,7 +47,6 @@ const staticConfig = {
               publicPath: '../'
             }
           },
-
           {
             loader: 'css-loader',
             options: {

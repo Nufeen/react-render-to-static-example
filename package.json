@@ -1,7 +1,7 @@
 {
   "name": "react-static-compilation-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "react-static-compilation-example",
   "main": "render.js",
   "dependencies": {
     "react": "^16.6.3",

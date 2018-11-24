@@ -1,7 +1,7 @@
 import React from 'react'
 import RDS from 'react-dom/server'
-import A from './App'
+import App from './App'
 
-const html = RDS.renderToStaticMarkup(A)
+const html = RDS.renderToStaticMarkup(App)
 
-console.log(html);
+console.log(html)
